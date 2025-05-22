@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "framework": "vite",
+  "installCommand": "npm install --legacy-peer-deps",
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
+    }
+  ],
+  "env": {
+    "VITE_WALLET_CONNECT_PROJECT_ID": "test_project_id"
+  }
+} 
